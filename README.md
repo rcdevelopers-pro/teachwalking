@@ -35,9 +35,22 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-Learn More
-You can learn more in the Create React App documentation.
+# Repo
 
-To learn React, check out the React documentation.
+Main branch Master
+Development branch dev
+Staging branch stage
 
+Developer should checkout from dev branch and do not push direct in main, dev and stage branch
+
+Create New Branch :- 
+Branch naming should be fllowing as per the task with status ( feature/fix )
+eg. add new content 
+feature/home-page-content
+eg. update or fix issue
+fix/home-page-content
+
+How to follow commit :-
+for new features "feat :- message"
+for fix issue/update "fix :- message"
 
