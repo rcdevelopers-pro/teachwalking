@@ -23,7 +23,8 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                       data-aos-delay="200"
                     >
-                      Start your startup agency with Pungent
+                      Empowering the Future Through Technology
+                      {/* Start your startup agency with Pungent */}
                     </h1>
 
                     <p
@@ -31,9 +32,13 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                       data-aos-delay="300"
                     >
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+                      At <b>Techwalking</b>, we believe in the transformative
+                      power of technology. Our mission is to help businesses of
+                      all sizes harness the full potential of IT solutions to
+                      drive growth, efficiency, and innovation. Whether you're a
+                      startup looking to establish your digital presence or an
+                      established enterprise seeking to optimize your IT
+                      infrastructure, we're here to guide you on your journey.
                     </p>
 
                     <Link
