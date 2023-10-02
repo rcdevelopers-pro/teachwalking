@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
 import Link from "next/link";
+import { companyName } from "../../utils/portfolio";
 
 const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
@@ -32,7 +33,7 @@ const MainBanner = () => {
                       data-aos-duration="1200"
                       data-aos-delay="300"
                     >
-                      At <b>Techwalking</b>, we believe in the transformative
+                      At <b>{companyName}</b>, we believe in the transformative
                       power of technology. Our mission is to help businesses of
                       all sizes harness the full potential of IT solutions to
                       drive growth, efficiency, and innovation. Whether you're a

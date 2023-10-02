@@ -4,25 +4,25 @@ import Link from "next/link";
 const funFactsData = [
   {
     iconName: "fa-solid fa-circle-check",
-    number: "980+",
+    number: "380+",
     shortText: "Completed Projects",
     aosDelay: "100",
   },
   {
     iconName: "fa-solid fa-heart",
-    number: "950+",
+    number: "360+",
     shortText: "Happy Clients",
     aosDelay: "200",
   },
   {
     iconName: "fa-solid fa-list-check",
-    number: "780+",
+    number: "80+",
     shortText:"Ongoing Projects",
     aosDelay: "300",
   },
   {
     iconName: "fa-solid fa-trophy",
-    number: "70+",
+    number: "15+",
     shortText:"Winning Awards",
     aosDelay: "400",
   },
@@ -36,8 +36,9 @@ const FunFactsTwo = () => {
           <div className="section-title">
             <h2>We always try to understand users expectation</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We always strive to empathetically grasp and exceed our users'
+              expectations. Your satisfaction fuels our relentless pursuit of
+              excellence.
             </p>
           </div>
 
@@ -52,16 +53,14 @@ const FunFactsTwo = () => {
                     data-aos-delay={value.aosDelay}
                   >
                     <i className={value.iconName}></i>
-                    <h3>
-                      {value.number}
-                    </h3>
+                    <h3>{value.number}</h3>
                     <p>{value.shortText}</p>
                   </div>
                 </div>
               ))}
           </div>
 
-          <div 
+          <div
             className="contact-cta-box"
             data-aos="fade-up"
             data-aos-duration="1200"

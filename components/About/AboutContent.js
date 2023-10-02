@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
+import { companyName } from "../../utils/portfolio";
 
 const AboutContent = () => {
   const [toggler, setToggler] = useState(false);
@@ -36,53 +37,97 @@ const AboutContent = () => {
               <div className="about-content about-content-two">
                 <div className="section-title">
                   <h2>About Us</h2>
+                  {/* <h4>Transforming Possibilities into Reality</h4> */}
                   <p>
-                    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                    In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                    elei fend et tiram.
+                    At {companyName}, we are not just an IT startup; we
+                    are a catalyst for change in the digital realm. Our story is
+                    one of innovation, determination, and a relentless pursuit
+                    of excellence.
                   </p>
                 </div>
 
                 <div className="about-text">
-                  <h4>Who We Are</h4>
+                  <h4>Our Vision</h4>
                   <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque ipsa quae ab illo inventore veritatis..
+                    Our vision is simple yet profound: to redefine the
+                    possibilities of technology. We envision a world where IT is
+                    not just a tool but a transformative force that empowers
+                    businesses and individuals to achieve their dreams.
                   </p>
                 </div>
 
                 <div className="about-text">
-                  <h4>Our History</h4>
+                  <h4>Our Commitment</h4>
                   <p>
-                    But I must explain to you how all this mistaken idea of
-                    denouncing pleasure and praising pain was born and I will
-                    give you a complete account of the.
+                    We are committed to being at the forefront of technological
+                    advancement. Our team is comprised of industry experts,
+                    creative thinkers, and problem solvers who thrive on
+                    challenges. We are driven to deliver solutions that don't
+                    just meet expectations – they exceed them.
                   </p>
                 </div>
 
                 <div className="about-text">
-                  <h4>Our Mission</h4>
+                  <h4>What Sets Us Apart</h4>
+
                   <ul>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry.
+                      Innovative Thinking
+                      {/* : Innovation is in our DNA. We embrace
+                      change, adapt to evolving landscapes, and pioneer
+                      solutions that others can only dream of. */}
                     </li>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      It is a long established fact that a reader will be
-                      distracted by the readable content of a page when looking
-                      at its layout.
+                      Client-Centric Approach
+                      {/* : Your success is our success. We
+                      listen, we understand, and we tailor our solutions to your
+                      unique needs. */}
                     </li>
                     <li>
                       <i className="fa-solid fa-circle-check"></i>
-                      Contrary to popular belief, Lorem Ipsum is not simply
-                      random text. It has roots in a piece of classical Latin
-                      literature.
+                      Quality Assurance
+                      {/* : We don't compromise on quality. Our
+                      solutions are robust, secure, and built to perform
+                      flawlessly. */}
+                    </li>
+
+                    <li>
+                      <i className="fa-solid fa-circle-check"></i>
+                      Sustainability
+                      {/* : We're not just about technology; we care
+                      about the planet. Our solutions are designed with
+                      sustainability in mind. */}
                     </li>
                   </ul>
                 </div>
+{/* 
+                <div className="about-text">
+                  <h4>Our Promise</h4>
+                  <p>
+                    When you partner with [Your Company Name], you're not just
+                    hiring a service provider; you're collaborating with a team
+                    that is passionate about your success. We promise to be your
+                    trusted technology partner, guiding you through the
+                    complexities of the digital landscape.
+                  </p>
+                </div>
+
+                <div className="about-text">
+                  <h4>Join Us on the Journey</h4>
+                  <p>
+                    Whether you're a business aiming to stay competitive in the
+                    digital age, an individual looking to leverage technology to
+                    its fullest, or a potential collaborator excited about
+                    innovation, we invite you to join us on this incredible
+                    journey. Let's turn possibilities into reality.
+                  </p>
+                  <p>
+                    Connect with [Your Company Name] today and be a part of a
+                    brighter, tech-driven future.
+                  </p>
+                </div> */}
               </div>
             </div>
           </div>

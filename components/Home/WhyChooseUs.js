@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
+import { companyName } from "../../utils/portfolio";
 
 const WhyChooseUs = () => {
   const [toggler, setToggler] = useState(false);
@@ -23,7 +24,7 @@ const WhyChooseUs = () => {
                 <div className="section-title">
                   <h2>Why Choose Us</h2>
                   <p>
-                    Welcome to <b>Techwalking</b>, where innovation meets
+                    Welcome to <b>{companyName}</b>, where innovation meets
                     reliability. We understand that choosing the right IT
                     partner for your business is a critical decision, and we're
                     here to make that choice an easy one. Here's why you should
@@ -34,7 +35,7 @@ const WhyChooseUs = () => {
                 <div className="about-text">
                   <h4>Who We Are</h4>
                   <p>
-                    At <b>Techwalking</b>, we are more than just a technology
+                    At <b>{companyName}</b>, we are more than just a technology
                     company—we are innovators, problem solvers, and partners in
                     your digital journey.
                   </p>
@@ -43,7 +44,7 @@ const WhyChooseUs = () => {
                 <div className="about-text">
                   <h4>Our History</h4>
                   <p>
-                    The story of <b>Techwalking</b> is one of ambition,
+                    The story of <b>{companyName}</b> is one of ambition,
                     innovation, and unwavering dedication to transforming the IT
                     landscape. Our history is a testament to the remarkable
                     journey we've undertaken since our inception, and it
@@ -55,7 +56,7 @@ const WhyChooseUs = () => {
                 <div className="about-text">
                   <h4>Our Mission</h4>
                   <p>
-                    At <b>Techwalking</b>, our mission is clear and unwavering:
+                    At <b>{companyName}</b>, our mission is clear and unwavering:
                     to revolutionize the IT landscape through innovation,
                     excellence, and client empowerment.
                   </p>
