@@ -188,7 +188,7 @@ const NavbarThree = () => {
                   </ul> */}
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="/blog/"
                     className={`nav-link ${
@@ -197,7 +197,7 @@ const NavbarThree = () => {
                   >
                     Blog
                   </Link>
-                </li>
+                </li> */}
               </ul>
 
               <div className="others-options">

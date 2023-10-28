@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Layouts/Navbar";
+import Navbar from "../components/Layouts/NavbarSecondary";
 import PageBanner from "../components/Common/PageBanner";
 import AboutContent from "../components/About/AboutContent";
 import FunFactsTwo from "../components/Common/FunFactsTwo";
