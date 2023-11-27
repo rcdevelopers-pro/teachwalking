@@ -1,80 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
-const servicesData = [
-  {
-    iconName: "pe-7s-comment bg-13c4a1",
-    title: "Business Consultancy",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/service-details",
-    aosDelay: "100",
-  },
-  {
-    iconName: "pe-7s-display2 bg-6610f2",
-    title: "Web Development",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/service-details",
-    aosDelay: "200",
-  },
-  {
-    iconName: "pe-7s-light bg-ffb700",
-    title: "Digital Marketing",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/service-details",
-    aosDelay: "300",
-  },
-  {
-    iconName: "pe-7s-phone bg-fc3549",
-    title: "Mobile App Development",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/service-details",
-    aosDelay: "400",
-  },
-  {
-    iconName: "pe-7s-cart bg-00d280",
-    title: "eCommerce Development",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/service-details",
-    aosDelay: "500",
-  },
-  {
-    iconName: "pe-7s-users bg-ff612f",
-    title: "Marketing & Reporting",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/service-details",
-    aosDelay: "600",
-  },
-  {
-    iconName: "pe-7s-headphones bg-6610f2",
-    title: "IT Consultancy",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/service-details",
-    aosDelay: "700",
-  },
-  {
-    iconName: "pe-7s-users bg-13c4a1",
-    title: "Social Marketing",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/service-details",
-    aosDelay: "800",
-  },
-  {
-    iconName: "pe-7s-comment bg-fc3549",
-    title: "Admin Support",
-    shortText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-    viewDetails: "/service-details",
-    aosDelay: "900",
-  },
-];
+import { servicesData } from "../../utils/servicesData";
 
 const ServicesStyleFour = () => {
   return (
@@ -94,7 +20,9 @@ const ServicesStyleFour = () => {
                   <div className="service-card-one white-bg text-center">
                     <i className={value.iconName}></i>
                     <h3>
-                      <Link href={value.viewDetails}>{value.title}</Link>
+                      <Link href={`${value.viewDetails}/${value.id}`}>
+                        {value.title}
+                      </Link>
                     </h3>
                     <p>{value.shortText}</p>
                   </div>

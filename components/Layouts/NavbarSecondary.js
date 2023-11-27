@@ -99,7 +99,7 @@ const NavbarTwo = () => {
                   </Link>
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="/blog/"
                     className={`nav-link ${
@@ -108,7 +108,7 @@ const NavbarTwo = () => {
                   >
                     Blog
                   </Link>
-                </li>
+                </li> */}
               </ul>
 
               <div className="others-options">
