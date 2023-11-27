@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { companyName } from "../../utils/portfolio";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -144,10 +145,8 @@ const Footer = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-              Copyright &copy; {currentYear} Pungent. All Rights Reserved By{" "}
-              <a href="https://envytheme.com" target="_blank">
-                EnvyTheme
-              </a>
+              Copyright &copy; {currentYear} {companyName}. All Rights Reserved
+              By {companyName}
             </p>
           </div>
         </div>
