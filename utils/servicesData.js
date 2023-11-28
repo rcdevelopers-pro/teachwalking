@@ -368,6 +368,66 @@ export const servicesData = [
       "TechWalking offers comprehensive digital marketing solutions, boosting online presence, engagement, and ROI with tailored strategies and cutting-edge tools",
     viewDetails: "/service-details",
     aosDelay: "700",
+    content: `<h1>TechWalking's Digital Marketing Solutions
+    </h1><p>
+    Step into the future of marketing with TechWalking, where innovation meets impact. Our Digital Marketing Services are designed to elevate your brand, amplify your online presence, and drive meaningful connections with your target audience.
+    </p>
+    <h5>
+    🚀 Strategic Solutions for Success
+    :</h5><p>
+    At TechWalking, we understand that every business is unique. Our team of seasoned digital marketing experts crafts tailored strategies that align with your goals, ensuring a personalized approach to maximize results. From brand awareness to lead generation, we've got you covered.
+    </p>
+    
+    <h5>
+    🌐 Comprehensive Online Presence:</h5><p>
+    TechWalking harnesses the power of the digital landscape to create a seamless and comprehensive online presence for your brand. Our services encompass social media management, search engine optimization (SEO), content marketing, and more. We ensure your brand is not just seen but remembered.
+    </p>
+    
+    <h5>
+    
+    📈 Data-Driven Insights:</h5><p>
+    In the world of digital marketing, knowledge is power. TechWalking leverages cutting-edge analytics tools to provide you with real-time, data-driven insights. This enables us to make informed decisions, optimize campaigns on the fly, and deliver measurable ROI for your marketing investments.
+    </p>
+    
+    <h5>
+    💡 Innovative Technology Integration:
+    </h5><p>
+    Stay ahead of the curve with TechWalking's embrace of the latest technologies. Whether it's AI-driven chatbots, immersive virtual experiences, or interactive content, we integrate innovative solutions to keep your brand at the forefront of the digital revolution.
+    </p>
+     
+    <h5>
+    👥 Engagement and Conversion Focused
+    :</h5><p>
+    We go beyond just generating clicks; we focus on fostering genuine engagement and converting leads into loyal customers. TechWalking employs targeted messaging, compelling visuals, and user-centric strategies to create experiences that resonate with your audience and drive tangible results.
+    </p>
+    
+    <h5>
+    
+    🔒 Security and Trust:</h5><p>
+    Your brand's reputation is our priority. TechWalking implements robust security measures to safeguard your digital assets and customer data. Trust us to navigate the digital landscape while maintaining the highest standards of privacy and security.
+    </p>
+    
+     <p>
+    Ready to take your digital presence to new heights? Partner with TechWalking, and let's embark on a journey of digital transformation together. Elevate your brand, engage your audience, and conquer the digital realm with confidence.
+    </p>
+    `,
+    rightSideContent: `<ol>
+    <li>Client Consultation</li>
+    <li>Market Research</li>
+    <li>Strategy Planning</li>
+    <li>Content Creation</li>
+    <li>SEO Optimization</li>
+    <li>Social Media</li>
+    <li>Email Campaigns</li>
+    <li>Web Development</li>
+    <li>Analytics</li>
+    <li>Testing</li>
+    <li>Refinement</li>
+    <li>Launch</li>
+    <li>Monitoring</li>
+    <li>Feedback</li>
+    <li>Reporting</li>
+  </ol>`,
   },
   {
     id: 1008,
@@ -377,6 +437,72 @@ export const servicesData = [
       "TechWalking boosts brands with targeted social campaigns, driving engagement, and amplifying impact through strategic social marketing services.",
     viewDetails: "/service-details",
     aosDelay: "800",
+    content: `<h1>TechWalking Social Marketing Services
+    </h1><p>
+    Introducing TechWalking, your premier partner in innovative Social Marketing solutions. Our cutting-edge service is designed to elevate your brand's online presence, engage your target audience, and drive meaningful connections in the digital landscape.
+    </p>
+    <h5>
+    
+    1. Strategic Social Media Management:</h5><p>
+    Leverage the power of social media with our expertly crafted strategies. We tailor our approach to suit your brand, creating dynamic content that resonates with your audience across platforms like Instagram, Facebook, Twitter, and LinkedIn.
+    </p>
+    
+    <h5>
+    2. Content Creation and Curation:</h5><p>
+    Our team of skilled content creators will develop compelling and shareable content that showcases your brand personality. From eye-catching visuals to thought-provoking copy, we ensure that every piece aligns seamlessly with your marketing objectives.
+    
+    
+    </p>
+    
+    <h5>
+    3. Influencer Collaborations:</h5><p>
+    Connect with key influencers in your industry to amplify your brand message. TechWalking identifies and partners with influencers whose audience aligns with your target demographic, creating authentic and impactful collaborations that drive brand awareness.
+    </p>
+    
+    <h5>
+    4. Data-Driven Analytics:</h5><p>
+    Stay ahead of the curve with our data-driven approach. Our analytics tools provide real-time insights into the performance of your social media campaigns, allowing us to refine strategies and optimize content for maximum impact.
+    </p>
+    
+    <h5>
+    5. Community Building:
+    </h5><p>
+    Foster a sense of community around your brand. TechWalking focuses on building meaningful connections with your audience, encouraging dialogue, and creating a loyal customer base that advocates for your brand.
+    </p>
+    
+    <h5>
+    6. Trend Analysis and Implementation:
+    </h5><p>
+    We keep you at the forefront of industry trends. Our team monitors the ever-evolving landscape of social media to identify emerging trends, ensuring that your brand remains relevant and ahead of the competition.
+    </p>
+    
+    <h5>
+    7. Cross-Platform Integration:
+    </h5><p>
+    Seamlessly integrate your social media efforts across various platforms for a cohesive brand identity. TechWalking ensures that your messaging is consistent, creating a unified and recognizable presence that resonates with your audience.
+    </p>
+    
+     <p>
+    At TechWalking, we understand the dynamic nature of social marketing, and our services are geared towards providing you with a competitive edge in the digital sphere. Elevate your brand, connect with your audience, and amplify your online influence with TechWalking's Social Marketing Services. Let's embark on a journey of digital success together!
+    </p>
+    `,
+    rightSideContent: `<ol>
+    <li><strong>Client Consultation:</strong> Understand goals and target audience.</li>
+    <li><strong>Strategy Planning:</strong> Develop a tailored social marketing strategy.</li>
+    <li><strong>Content Creation:</strong> Craft engaging content and visuals.</li>
+    <li><strong>Platform Selection:</strong> Choose suitable social media platforms.</li>
+    <li><strong>Implementation:</strong> Execute the marketing plan effectively.</li>
+    <li><strong>Monitoring:</strong> Regularly track performance and engagement metrics.</li>
+    <li><strong>Analytics:</strong> Analyze data to optimize strategies for better results.</li>
+    <li><strong>Feedback Loop:</strong> Gather client feedback and adjust strategies accordingly.</li>
+    <li><strong>Ad Campaigns:</strong> Plan and execute targeted advertising campaigns.</li>
+    <li><strong>Community Building:</strong> Foster a strong online community presence.</li>
+    <li><strong>Influencer Collaboration:</strong> Identify and collaborate with relevant influencers.</li>
+    <li><strong>Optimization:</strong> Continuously refine strategies based on performance insights.</li>
+    <li><strong>Reporting:</strong> Provide detailed reports on campaign effectiveness.</li>
+    <li><strong>Adaptation:</strong> Stay current with social media trends and adjust strategies as needed.</li>
+    <li><strong>Results Delivery:</strong> Deliver measurable and impactful social marketing results.</li>
+  </ol>`,
   },
   {
     id: 1009,
@@ -386,5 +512,64 @@ export const servicesData = [
       "TechWalking offers efficient Admin Support services, streamlining tasks for businesses with precision, professionalism, and cutting-edge technology solutions",
     viewDetails: "/service-details",
     aosDelay: "900",
+    content: `
+    <h1>TechWalking Admin Support Solutions
+    </h1><p>
+    Elevate your business operations with TechWalking's cutting-edge Admin Support Services. At TechWalking, we understand that efficient administrative tasks are the backbone of any successful enterprise. Our tailored solutions are designed to streamline your administrative processes, allowing you to focus on what matters most – growing your business.
+    </p>
+    <h5>
+    Dedicated Administrative Professionals:
+    </h5><p>
+    Our team of skilled and experienced administrative professionals is committed to providing top-notch support for your day-to-day operations. From managing emails and scheduling appointments to handling data entry and document preparation, we've got you covered.
+    </p>
+    
+    <h5>
+    Time and Cost Efficiency:
+    </h5><p>
+    TechWalking's Admin Support Services are geared towards maximizing your productivity and minimizing costs. By outsourcing your administrative tasks to us, you can redirect your resources towards core business activities, ultimately improving your bottom line.
+    </p>
+    
+    <h5>
+    Advanced Technology Integration:
+    </h5><p>
+    Stay ahead of the curve with our state-of-the-art technology solutions. TechWalking employs the latest tools and software to ensure seamless communication, efficient data management, and secure document handling. Our tech-driven approach enhances accuracy and reduces the likelihood of errors.
+    </p>
+    
+    <h5>
+    Customized Solutions:
+    </h5><p>
+    We understand that every business is unique. That's why our Admin Support Services are customizable to fit your specific needs. Whether you require ongoing support or assistance with a particular project, TechWalking adapts to your requirements, providing tailored solutions that align with your goals.
+    </p>
+    
+    <h5>
+    Data Security and Confidentiality:
+    </h5><p>
+    Security is a top priority at TechWalking. Our robust data security measures ensure the confidentiality and integrity of your sensitive information. You can trust us to handle your data with the utmost care, adhering to industry best practices and compliance standards.
+    </p>
+    
+    <h5>
+    Scalability:
+    </h5><p>
+    As your business grows, so do your administrative needs. TechWalking's Admin Support Services are scalable, allowing you to easily adjust the level of support based on your evolving requirements. Whether you're a startup or an established enterprise, we grow with you.
+    </p>
+     <p>
+    Transform your business operations with TechWalking's Admin Support Services – where efficiency meets innovation. Partner with us and experience a seamless, hassle-free approach to managing your administrative tasks. Focus on your core competencies while we take care of the rest. TechWalking – Empowering Your Business, Every Step of the Way.
+    </p>`,
+    rightSideContent: `  <ol>
+    <li><strong>Client Request:</strong> Submit admin support needs through our portal.</li>
+    <li><strong>Task Assignment:</strong> Assign dedicated admin to client request.</li>
+    <li><strong>Analysis:</strong> Assess client requirements and determine optimal solutions.</li>
+    <li><strong>Execution:</strong> Implement admin support tasks efficiently and accurately.</li>
+    <li><strong>Quality Check:</strong> Thoroughly review completed tasks for precision and excellence.</li>
+    <li><strong>Client Review:</strong> Seek client feedback on completed admin support services.</li>
+    <li><strong>Adjustments:</strong> Make any necessary adjustments based on client input.</li>
+    <li><strong>Documentation:</strong> Maintain detailed records of completed admin support tasks.</li>
+    <li><strong>Communication:</strong> Regularly update clients on task progress and any relevant information.</li>
+    <li><strong>Security:</strong> Ensure the utmost confidentiality and security of client data.</li>
+    <li><strong>Problem Resolution:</strong> Address and resolve any issues or concerns promptly.</li>
+    <li><strong>Feedback Integration:</strong> Integrate valuable client feedback for continuous improvement.</li>
+    <li><strong>Reporting:</strong> Provide periodic reports outlining admin support activities and achievements.</li>
+    <li><strong>Client Satisfaction:</strong> Strive for high client satisfaction through reliable and efficient admin support.</li>
+  </ol>`,
   },
 ];

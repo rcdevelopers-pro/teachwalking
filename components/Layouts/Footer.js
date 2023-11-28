@@ -23,9 +23,8 @@ const Footer = () => {
                 </div>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
+                  Empowering Tomorrow, One TechStride at a Time - TechWalking:
+                  Where Innovation Meets Excellence.
                 </p>
 
                 <ul className="social-links">
@@ -127,14 +126,18 @@ const Footer = () => {
                   </li> */}
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+324-9442-515">+324-9442-515</a>
+                    <a href="tel:+91-77280-83724">+91-772808-3724</a>
                     <br />
-                    <a href="tel:+324-9442-515">+324-9442-999</a>
+                    <a href="tel:+91-89551-84644">+91-89551-84644</a>
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
-                    <a href="mailto:support@pungent.com">support@pungent.com</a>
+                    <a href="mailto:hello@techwalking.com">
+                      hello@techwalking.com
+                    </a>
+                    <a href="mailto:support@techwalking.com">
+                      support@techwalking.com
+                    </a>
                   </li>
                 </ul>
               </div>

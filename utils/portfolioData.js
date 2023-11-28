@@ -3,6 +3,7 @@ export const caseStudyData = [
     id: 101,
     image: "/images/case-studies/studie6.jpg",
     shapeImage: "/images/case-studies/studie-shape6.png",
+    BGImage: "/images/page-banner2.jpg",
     title:
       "NearMe Social Media Application: Enhancing Social Connections and Local Discovery",
     category: "Product",
@@ -297,7 +298,6 @@ export const caseStudyData = [
    <p>The successful integration of technology into MK Studio's operations serves as a testament to the power of tech-driven solutions in the creative industry. By adapting to changing customer expectations and industry trends, MK Studio was not only able to survive in a competitive market but thrive and grow, setting an example for others in the field.</p>
     `,
   },
-  
 ];
 
 // User Experience

@@ -1,50 +1,51 @@
 import React from "react";
 import Link from "next/link";
+import { caseStudyData } from "../../utils/portfolioData";
 
-const ourWorksData = [
-  {
-    image: "/images/works/work1.jpg",
-    title: "Designing a better cinema experience",
-    category: "Development",
-    viewDetails: "/portfolio-details",
-    aosDelay: "100",
-  },
-  {
-    image: "/images/works/work2.jpg",
-    title: "Building design process within teams",
-    category: "Web Design",
-    viewDetails: "/portfolio-details",
-    aosDelay: "200",
-  },
-  {
-    image: "/images/works/work3.jpg",
-    title: "How intercom brings play into their design process",
-    category: "eCommerce",
-    viewDetails: "/portfolio-details",
-    aosDelay: "300",
-  },
-  {
-    image: "/images/works/work4.jpg",
-    title: "Stuck with to-do list, I created a new app for myself",
-    category: "Email Marketing",
-    viewDetails: "/portfolio-details",
-    aosDelay: "400",
-  },
-  {
-    image: "/images/works/work5.jpg",
-    title: "Examples of different types of sprints",
-    category: "Marketing & Reporting",
-    viewDetails: "/portfolio-details",
-    aosDelay: "500",
-  },
-  {
-    image: "/images/works/work6.jpg",
-    title: "Redesigning the New York times app",
-    category: "App Development",
-    viewDetails: "/portfolio-details",
-    aosDelay: "600",
-  },
-];
+// const ourWorksData = [
+//   {
+//     image: "/images/works/work1.jpg",
+//     title: "Designing a better cinema experience",
+//     category: "Development",
+//     viewDetails: "/portfolio-details",
+//     aosDelay: "100",
+//   },
+//   {
+//     image: "/images/works/work2.jpg",
+//     title: "Building design process within teams",
+//     category: "Web Design",
+//     viewDetails: "/portfolio-details",
+//     aosDelay: "200",
+//   },
+//   {
+//     image: "/images/works/work3.jpg",
+//     title: "How intercom brings play into their design process",
+//     category: "eCommerce",
+//     viewDetails: "/portfolio-details",
+//     aosDelay: "300",
+//   },
+//   {
+//     image: "/images/works/work4.jpg",
+//     title: "Stuck with to-do list, I created a new app for myself",
+//     category: "Email Marketing",
+//     viewDetails: "/portfolio-details",
+//     aosDelay: "400",
+//   },
+//   {
+//     image: "/images/works/work5.jpg",
+//     title: "Examples of different types of sprints",
+//     category: "Marketing & Reporting",
+//     viewDetails: "/portfolio-details",
+//     aosDelay: "500",
+//   },
+//   {
+//     image: "/images/works/work6.jpg",
+//     title: "Redesigning the New York times app",
+//     category: "App Development",
+//     viewDetails: "/portfolio-details",
+//     aosDelay: "600",
+//   },
+// ];
 
 const WorksStyleTwo = () => {
   return (
@@ -54,16 +55,17 @@ const WorksStyleTwo = () => {
           <div className="section-title">
             <h2>Our All Projects</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Innovative projects delivering cutting-edge solutions, optimizing
+              efficiency, and fostering growth through strategic implementation
+              and advanced technologies.
             </p>
           </div>
 
           <div className="row justify-content-center">
-            {ourWorksData &&
-              ourWorksData.slice(0, 6).map((value, i) => (
-                <div 
-                  className="col-lg-4 col-sm-6" 
+            {caseStudyData &&
+              caseStudyData.slice(0, 6).map((value, i) => (
+                <div
+                  className="col-lg-4 col-sm-6"
                   key={i}
                   data-aos="fade-in"
                   data-aos-duration="1200"
@@ -74,14 +76,21 @@ const WorksStyleTwo = () => {
 
                     <div className="content">
                       <span>
-                        <Link href={value.viewDetails}>{value.category}</Link>
+                        <Link href={`${value.viewDetails}/${value.id}`}>
+                          {value.category}
+                        </Link>
                       </span>
 
                       <h3>
-                        <Link href={value.viewDetails}>{value.title}</Link>
+                        <Link href={`${value.viewDetails}/${value.id}`}>
+                          {value.title}
+                        </Link>
                       </h3>
 
-                      <Link href={value.viewDetails} className="custom-btn">
+                      <Link
+                        href={`${value.viewDetails}/${value.id}`}
+                        className="custom-btn"
+                      >
                         View Details
                       </Link>
                     </div>

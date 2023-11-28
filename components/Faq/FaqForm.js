@@ -52,8 +52,9 @@ const FaqForm = () => {
         <div className="contact-title">
           <h2>Ask Your Questions</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Ask Your Questions: A platform for curious minds. Explore, inquire,
+            and learn with a diverse community. Your queries, our
+            answers—fueling curiosity, one question at a time.
           </p>
         </div>
 

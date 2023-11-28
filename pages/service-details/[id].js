@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import Navbar from "../../components/Layouts/Navbar";
+import Navbar from "../../components/Layouts/NavbarSecondary";
 import PageBanner from "../../components/Common/PageBanner";
 import ServiceDetailsContent from "../../components/Services/ServiceDetailsContent";
 import CtaAreaTwo from "../../components/Common/CtaAreaTwo";
