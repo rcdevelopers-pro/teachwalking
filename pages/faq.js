@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarTwo from "../components/Layouts/NavbarTwo";
+import NavbarTwo from "../components/Layouts/NavbarSecondary";
 import PageBanner from "../components/Common/PageBanner";
 import FaqContent from "../components/Faq/FaqContent";
 import FaqForm from "../components/Faq/FaqForm";
@@ -11,7 +11,10 @@ const Faq = () => {
     <>
       <NavbarTwo />
 
-      <PageBanner pageTitle="Frequently Asked Questions" BGImage="/images/page-banner1.jpg" />
+      <PageBanner
+        pageTitle="Frequently Asked Questions"
+        BGImage="/images/page-banner1.jpg"
+      />
 
       <FaqContent />
 
