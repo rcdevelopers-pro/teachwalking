@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-
-// UX Process
+import { caseStudyData } from "../../utils/portfolioData";
+ // UX Process
 const UXProcessData = [
   {
     image: "/images/case-studies/studie1.jpg",
@@ -270,22 +270,69 @@ const CaseStudies = () => {
           <div className="section-title">
             <h2>Our Case Studies</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              We base our success on the success of our customers. Whether
+              they’ve come to us for a software recommendation or a holistic
+              shift in the way they handle their IT, we’re proud to say that
+              we’ve helped organizations in many different industries build IT
+              systems that propel their business forward.
             </p>
           </div>
 
           <div className="case-studies-tabs">
             <Tabs>
-              <TabList>
+              {/* <TabList>
                 <Tab>UX Process</Tab>
                 <Tab>User Experience</Tab>
                 <Tab>User Interface</Tab>
                 <Tab>Brand</Tab>
                 <Tab>Product</Tab>
-              </TabList>
+              </TabList> */}
 
+              {/* All Service */}
               <TabPanel>
+                <div className="row justify-content-center">
+                  {caseStudyData &&
+                    caseStudyData.slice(0, 6).map((value, i) => (
+                      <div className="col-lg-4 col-md-6 mt-40" key={i}>
+                        <div
+                          className="single-case-studies"
+                          style={{
+                            backgroundImage: `url(${value.image})`,
+                          }}
+                          data-aos="fade-in"
+                          data-aos-duration="1200"
+                          data-aos-delay={value.aosDelay}
+                        >
+                          <div className="content">
+                            <span>
+                              <Link  href={`${value.viewDetails}/${value.id}`}>
+                                {value.category}
+                              </Link>
+                            </span>
+                            <h3>
+                              <Link  href={`${value.viewDetails}/${value.id}`}>
+                                {value.title}
+                              </Link>
+                            </h3>
+                          </div>
+
+                          <Link
+                            href={`${value.viewDetails}/${value.id}`}
+                            className="btn btn-primary"
+                          >
+                            View Case Study
+                          </Link>
+
+                          <div className="shape">
+                            <img src={value.shapeImage} alt="logo" />
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                </div>
+              </TabPanel>
+
+              {/* <TabPanel>
                 <div className="row justify-content-center">
                   {UXProcessData &&
                     UXProcessData.slice(0, 6).map((value, i) => (
@@ -326,9 +373,9 @@ const CaseStudies = () => {
                       </div>
                     ))}
                 </div>
-              </TabPanel>
+              </TabPanel> */}
 
-              <TabPanel>
+              {/* <TabPanel>
                 <div className="row justify-content-center">
                   {UserExperienceData &&
                     UserExperienceData.slice(0, 6).map((value, i) => (
@@ -369,9 +416,9 @@ const CaseStudies = () => {
                       </div>
                     ))}
                 </div>
-              </TabPanel>
+              </TabPanel> */}
 
-              <TabPanel>
+              {/* <TabPanel>
                 <div className="row justify-content-center">
                   {UserInterfaceData &&
                     UserInterfaceData.slice(0, 6).map((value, i) => (
@@ -412,9 +459,9 @@ const CaseStudies = () => {
                       </div>
                     ))}
                 </div>
-              </TabPanel>
+              </TabPanel> */}
 
-              <TabPanel>
+              {/* <TabPanel>
                 <div className="row justify-content-center">
                   {BrandData &&
                     BrandData.slice(0, 6).map((value, i) => (
@@ -455,9 +502,9 @@ const CaseStudies = () => {
                       </div>
                     ))}
                 </div>
-              </TabPanel>
+              </TabPanel> */}
 
-              <TabPanel>
+              {/* <TabPanel>
                 <div className="row justify-content-center">
                   {ProductData &&
                     ProductData.slice(0, 6).map((value, i) => (
@@ -498,7 +545,7 @@ const CaseStudies = () => {
                       </div>
                     ))}
                 </div>
-              </TabPanel>
+              </TabPanel>   */}
             </Tabs>
           </div>
         </div>

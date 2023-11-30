@@ -1,25 +1,31 @@
 import React from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";
+import { companyName } from "../../utils/portfolio";
 
 const feedbacskData = [
   {
-    name: "John Smith",
-    designation: "CEO & Founder, Envato",
-    feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+    name: "Michael",
+    designation: "CEO of Maraketing Agency",
+    feedbacskText: `As the CEO of our marketing agency, I want to express my gratitude and satisfaction with the exceptional work carried out by ${companyName}. Your team has truly demonstrated expertise, professionalism, and dedication in delivering outstanding IT solutions tailored to our marketing needs. This partnership has not only improved our internal processes but has also empowered us to better serve our clients. Thank you for your outstanding contributions to our success.`,
   },
   {
-    name: "Oliver Smith",
-    designation: "React JS Specialist",
-    feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+    name: "Anuj Jain",
+    designation: "CEO & Founder of Jai Jinendra apliances",
+    feedbacskText: `Choosing ${companyName} was one of the best decisions we made for our shop. Their experience help us our unique needs but also exceeded our expectations. They've played a pivotal role in our growth and success. We couldn't be happier with their services!`,
   },
   {
-    name: "Thomas John",
-    designation: "Angular JS Specialist",
+    name: "Dr. Sajid Hussain",
+    designation: "Maryam Hospital",
     feedbacskText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+      "I am truly impressed with the IT company's expertise and efficiency in launching our website. The seamless transition to an online platform is crucial for our healthcare practice, and they have executed it flawlessly. The website looks professional, is user-friendly, and meets all our requirements. I believe this collaboration will enhance our patient experience and streamline our operations. Kudos to the entire team!",
+  },
+  {
+    name: "Sagar",
+    designation: "CEO of Nearme App",
+    feedbacskText:
+      `We're thrilled with the social media application and management system developed by ${companyName}. Your team has created a game-changer that has streamlined our social media operations. It's user-friendly, efficient, and has truly elevated our online presence. Thanks for turning our vision into reality!`,
   },
 ];
 
@@ -51,7 +57,9 @@ const Feedback = () => {
                 feedbacskData.map((value, i) => (
                   <SwiperSlide key={i}>
                     <div className="single-feedback">
-                      <p><q>{value.feedbacskText}</q></p>
+                      <p>
+                        <q>{value.feedbacskText}</q>
+                      </p>
 
                       <div className="bar"></div>
 

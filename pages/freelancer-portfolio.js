@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Layouts/Navbar";
-import MainBanner from "./../components/HomePages/FreelancerPortfolio/MainBanner";
-import Projects from "../components/HomePages/FreelancerPortfolio/Projects";
+// import MainBanner from "./../components/HomePages/FreelancerPortfolio/MainBanner";
+// import Projects from "../components/HomePages/FreelancerPortfolio/Projects";
 import Feedback from "../components/Common/Feedback";
 import CtaAreaTwo from "../components/Common/CtaAreaTwo";
 import Newsletter from "../components/Common/Newsletter";
@@ -12,9 +12,9 @@ const FreelancerPortfolio = () => {
     <>
       <Navbar />
 
-      <MainBanner />
+      {/* <MainBanner /> */}
 
-      <Projects />
+      {/* <Projects /> */}
 
       <Feedback />
 

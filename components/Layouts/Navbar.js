@@ -40,7 +40,7 @@ const NavbarThree = () => {
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container">
             <Link href="/" className="navbar-brand">
-              <img src="/images/logo1.png" alt="logo" />
+              <img src="/images/logo.png" alt="logo" />
             </Link>
 
             {/* Toggle navigation */}
@@ -188,7 +188,7 @@ const NavbarThree = () => {
                   </ul> */}
                 </li>
 
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     href="/blog/"
                     className={`nav-link ${
@@ -197,7 +197,7 @@ const NavbarThree = () => {
                   >
                     Blog
                   </Link>
-                </li>
+                </li> */}
               </ul>
 
               <div className="others-options">

@@ -12,7 +12,7 @@ const FaqContent = () => {
     <>
       <div className="faq-area ptb-100">
         <div className="container">
-          <div className="row align-items-center">
+          <div className="row ">
             <div className="col-lg-6">
               <div className="faq-img">
                 <img src="/images/faq-img.jpg" alt="Image" />
@@ -25,15 +25,16 @@ const FaqContent = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What access do I have on the free plan?
+                        What does TechWalking specialize in?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        TechWalking is a software services company that
+                        specializes in providing cutting-edge solutions for
+                        businesses, including custom software development,
+                        website design & Development, mobile application
+                        development, digital Marketing and IT consulting.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -41,15 +42,15 @@ const FaqContent = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What access do I have on a free trial?
+                        How can TechWalking benefit my business?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        TechWalking can enhance your business by delivering
+                        tailor-made software solutions that streamline
+                        operations, improve efficiency, and address specific
+                        challenges unique to your industry.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -57,15 +58,15 @@ const FaqContent = () => {
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Does the price go up as my team gets larger?
+                        What industries does TechWalking serve?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        TechWalking caters to a diverse range of industries,
+                        including but not limited to healthcare, finance,
+                        e-commerce, manufacturing, educational and technology.
+                        Our team is equipped to handle various business domains.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -73,15 +74,16 @@ const FaqContent = () => {
                   <AccordionItem uuid="d">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How can I cancel/pause my subscription?
+                        How does the TechWalking development process work?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        Our development process involves a thorough
+                        understanding of your business requirements, followed by
+                        design, development, testing, and deployment phases. We
+                        emphasize collaboration and feedback throughout to
+                        ensure the final product aligns with your vision.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -89,15 +91,16 @@ const FaqContent = () => {
                   <AccordionItem uuid="e">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Can I pay via an invoice?
+                        Can TechWalking assist with existing software
+                        maintenance?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem Ipsum is simply dummy text of the printing and
-                        typesetting industry. Lorem Ipsum has been the
-                        industry's standard dummy text ever since the 1500s,
-                        when an unknown printer took a galley of type.
+                        Yes, TechWalking provides ongoing support and
+                        maintenance services for existing software applications.
+                        This includes updates, bug fixes, and enhancements to
+                        ensure your software remains robust and up-to-date.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

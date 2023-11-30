@@ -8,7 +8,7 @@ import Footer from "../components/Layouts/Footer";
 const Services = () => {
   return (
     <>
-      <Navbar />
+      <Navbar /> 
 
       <PageBanner pageTitle="Our Services" BGImage="/images/page-banner1.jpg" />
 

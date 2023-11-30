@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarTwo from "../components/Layouts/NavbarTwo";
+import NavbarTwo from "../components/Layouts/NavbarSecondary";
 import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/Layouts/Footer";
 
@@ -8,97 +8,97 @@ const TermsConditions = () => {
     <>
       <NavbarTwo />
 
-      <PageBanner pageTitle="Terms Conditions" BGImage="/images/page-banner2.jpg" />
+      <PageBanner
+        pageTitle="Terms Conditions"
+        BGImage="/images/page-banner2.jpg"
+      />
 
       <div class="text-container ptb-100">
         <div class="container">
-          <h4>What is Lorem Ipsum?</h4>
-
+          <h4>TechWalking Terms and Conditions</h4>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Welcome to TechWalking! We're delighted to have you as part of our
+            community. Before you dive into the exciting world of our services,
+            please take a moment to familiarize yourself with our Terms and
+            Conditions. By using our services, you agree to abide by the
+            following guidelines:
           </p>
-
-          <h4>Where does it come from?</h4>
+          <h5>Acceptance of Terms:</h5>
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a
-            treatise on the theory of ethics, very popular during the
-            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-            amet..".
+            {" "}
+            By accessing or using TechWalking's services, you acknowledge that
+            you have read, understood, and agree to comply with these Terms and
+            Conditions. If you do not agree with any part of these terms, please
+            refrain from using our services.
+          </p>{" "}
+          <h5>User Eligibility: </h5>
+          <p>
+            {" "}
+            Our services are intended for users who are at least 18 years old.
+            If you are under 18, you may use our services only with the
+            involvement and consent of a parent or guardian.
+          </p>{" "}
+          <h5>Account Information:</h5>
+          <p>
+            {" "}
+            To access certain features of our services, you may need to create a
+            TechWalking account. You are responsible for maintaining the
+            confidentiality of your account information and for all activities
+            that occur under your account.
+          </p>{" "}
+          <h5>Service Usage:</h5>
+          <p>
+            {" "}
+            TechWalking provides various services, and you agree to use them
+            only for lawful purposes. You may not use our services in any way
+            that could harm TechWalking, its users, or any third party.
+          </p>{" "}
+          <h5>Intellectual Property: </h5>
+          <p>
+            All content and materials available on TechWalking, including but
+            not limited to text, graphics, logos, button icons, images, audio
+            clips, and software, are the property of TechWalking or its
+            licensors and are protected by intellectual property laws.
+          </p>{" "}
+          <h5>Privacy Policy:</h5>
+          <p>
+            {" "}
+            We take your privacy seriously. Please review our Privacy Policy to
+            understand how we collect, use, and protect your personal
+            information.
+          </p>{" "}
+          <h5>Third-Party Links:</h5>
+          <p>
+            {" "}
+            TechWalking may contain links to third-party websites or services
+            that are not owned or controlled by us. We are not responsible for
+            the content or practices of any third-party site and encourage you
+            to review their terms and privacy policies.
+          </p>{" "}
+          <h5>Termination of Services:</h5>
+          <p>
+            {" "}
+            TechWalking reserves the right to terminate or suspend your access
+            to our services at any time, with or without cause, and without
+            notice.
+          </p>{" "}
+          <h5>Changes to Terms: </h5>
+          <p>
+            TechWalking may update these Terms and Conditions from time to time.
+            It is your responsibility to review them periodically. Your
+            continued use of our services after any modifications indicates your
+            acceptance of the updated terms.
+          </p>{" "}
+          <h5>Contact Information:</h5>
+          <p>
+            {" "}
+            If you have any questions or concerns about these Terms and
+            Conditions, please contact us at{" "}
+            <a href="mailto:info@techwalking.com">info@techwalking.com</a> .
           </p>
-
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-            aliquid ex ea commodi consequatur? Quis autem vel eum iure
-            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-          </p>
-
-          <h4>Where can I get some?</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim.
-          </p>
-
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn't anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet. It uses a dictionary of over 200 Latin
-            words, combined with a handful of model sentence structures, to
-            generate Lorem Ipsum which looks reasonable. The generated Lorem
-            Ipsum is therefore always free from repetition, injected.
-          </p>
-
-          <p>
-            But I must explain to you how all this mistaken idea of denouncing
-            pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound the actual teachings of the great
-            explorer of the truth, the master-builder of human happiness. No one
-            rejects, dislikes, or avoids pleasure itself, because it is
-            pleasure, but because those who do not know how to pursue pleasure
-            rationally encounter consequences that are extremely painful. Nor
-            again is there anyone who loves or pursues or desires to obtain pain
-            of itself, because it is pain, but because occasionally
-            circumstances occur in which toil and pain can procure him some
-            great pleasure. To take a trivial example, which of us ever
-            undertakes laborious physical exercise, except to obtain some
-            advantage from it? But who has any right to find fault with a man
-            who chooses to enjoy a pleasure that has no annoying consequences,
-            or one who avoids a pain that produces no resultant pleasure?
+            Thank you for choosing TechWalking. We look forward to providing you
+            with an outstanding service experience!
           </p>
         </div>
       </div>

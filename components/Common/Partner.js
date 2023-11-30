@@ -1,4 +1,5 @@
 import React from "react";
+import { companyName } from "../../utils/portfolio";
 
 const partnersData = [
   {
@@ -71,8 +72,9 @@ const Partner = () => {
           <div className="section-title">
             <h2>Trusted By</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Countless satisfied clients rely on
+              our expertise and dedication to excellence. Join the ranks of
+              those who trust us for top-tier solutions.
             </p>
           </div>
 

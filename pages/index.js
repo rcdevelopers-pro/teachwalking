@@ -52,13 +52,13 @@ const StartupAgency2 = () => {
 
       {/* <PricingStyleThree /> */}
 
-      <div className="pt-100">
+      {/* <div className="pt-100">
         <Newsletter />
-      </div>
+      </div> */}
 
-      <div className="ptb-100">
+      {/* <div className="ptb-100">
         <LatestNews />
-      </div>
+      </div> */}
 
       <CtaAreaTwo />
 

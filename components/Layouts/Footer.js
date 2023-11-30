@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { companyName } from "../../utils/portfolio";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -22,9 +23,8 @@ const Footer = () => {
                 </div>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
+                  Empowering Tomorrow, One TechStride at a Time - TechWalking:
+                  Where Innovation Meets Excellence.
                 </p>
 
                 <ul className="social-links">
@@ -126,14 +126,15 @@ const Footer = () => {
                   </li> */}
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+324-9442-515">+324-9442-515</a>
+                    <a href="tel:+91-77280-83724">+91-772808-3724</a>
                     <br />
-                    <a href="tel:+324-9442-515">+324-9442-999</a>
+                    <a href="tel:+91-89551-84644">+91-89551-84644</a>
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>
-                    <a href="mailto:hello@pungent.com">hello@pungent.com</a>
-                    <a href="mailto:support@pungent.com">support@pungent.com</a>
+                    <a href="mailto:info@techwalking.com">
+                      info@techwalking.com
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -144,10 +145,8 @@ const Footer = () => {
         <div className="copyright-area">
           <div className="container">
             <p>
-              Copyright &copy; {currentYear} Pungent. All Rights Reserved By{" "}
-              <a href="https://envytheme.com" target="_blank">
-                EnvyTheme
-              </a>
+              Copyright &copy; {currentYear} {companyName}. All Rights Reserved
+              By {companyName}
             </p>
           </div>
         </div>

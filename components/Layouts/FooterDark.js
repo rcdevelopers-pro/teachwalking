@@ -9,10 +9,10 @@ const FooterDark = () => {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
-                data-aos="fade-in" 
-                data-aos-duration="1200" 
+                data-aos="fade-in"
+                data-aos-duration="1200"
                 data-aos-delay="100"
               >
                 <div className="logo">
@@ -22,9 +22,8 @@ const FooterDark = () => {
                 </div>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam.
+                  Empowering Tomorrow, One TechStride at a Time - TechWalking:
+                  Where Innovation Meets Excellence.
                 </p>
 
                 <ul className="social-links">
@@ -53,96 +52,76 @@ const FooterDark = () => {
             </div>
 
             <div className="col-lg-3 col-md-6 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget ml-4 pl-5"
-                data-aos="fade-in" 
-                data-aos-duration="1200" 
+                data-aos="fade-in"
+                data-aos-duration="1200"
                 data-aos-delay="200"
               >
                 <h3>Explore</h3>
 
                 <ul className="list">
                   <li>
-                    <Link href="/">
-                      Home
-                    </Link>
+                    <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <Link href="/about/">
-                      About
-                    </Link>
+                    <Link href="/about/">About</Link>
                   </li>
                   <li>
-                    <Link href="/services/">
-                      Services
-                    </Link>
+                    <Link href="/services/">Services</Link>
                   </li>
                   <li>
-                    <Link href="/portfolio/">
-                      Portfolio
-                    </Link>
+                    <Link href="/portfolio/">Portfolio</Link>
                   </li>
                   <li>
-                    <Link href="/team/">
-                      Team
-                    </Link>
+                    <Link href="/team/">Team</Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget ml-4"
-                data-aos="fade-in" 
-                data-aos-duration="1200" 
+                data-aos="fade-in"
+                data-aos-duration="1200"
                 data-aos-delay="300"
               >
                 <h3>Quick Links</h3>
 
                 <ul className="list">
                   <li>
-                    <Link href="/contact/">
-                      Contact Us
-                    </Link>
+                    <Link href="/contact/">Contact Us</Link>
                   </li>
                   <li>
-                    <Link href="/pricing/">
-                      Pricing
-                    </Link>
+                    <Link href="/pricing/">Pricing</Link>
                   </li>
                   <li>
-                    <Link href="/faq/">
-                      Faq
-                    </Link>
+                    <Link href="/faq/">Faq</Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy/">
-                      Privacy Policy
-                    </Link>
+                    <Link href="/privacy-policy/">Privacy Policy</Link>
                   </li>
                   <li>
-                    <Link href="/terms-conditions/">
-                      Terms & Conditions
-                    </Link>
+                    <Link href="/terms-conditions/">Terms & Conditions</Link>
                   </li>
                 </ul>
               </div>
             </div>
 
             <div className="col-lg-3 col-sm-6">
-              <div 
+              <div
                 className="single-footer-widget"
-                data-aos="fade-in" 
-                data-aos-duration="1200" 
+                data-aos="fade-in"
+                data-aos-duration="1200"
                 data-aos-delay="400"
               >
                 <h3>Get in Touch</h3>
 
                 <ul className="get-in-touch">
                   <li>
-                    <i className="fa-solid fa-location-dot"></i> 2750 Quadra Street
-                    Victoria, Canada.
+                    <i className="fa-solid fa-location-dot"></i> 2750 Quadra
+                    Street Victoria, Canada.
                   </li>
                   <li className="pt-2">
                     <i className="fa-solid fa-headset"></i>
