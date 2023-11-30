@@ -1,7 +1,44 @@
+const bestServicesData = [
+  // {
+  //   image: "/images/services/service1.jpg",
+  //   iconName: "pe-7s-magnet",
+  //   title: "UX Design",
+  //   shortText:
+  //     "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+  //   detailsLink: "/service-details/",
+  // },
+  // {
+  //   image: "/images/services/service2.jpg",
+  //   iconName: "pe-7s-vector",
+  //   title: "UI Design",
+  //   shortText:
+  //     "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+  //   detailsLink: "/service-details/",
+  // },
+  // {
+  //   image: "/images/services/service3.jpg",
+  //   iconName: "pe-7s-scissors",
+  //   title: "Digital Product Design",
+  //   shortText:
+  //     "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+  //   detailsLink: "/service-details/",
+  // },
+  // {
+  //   image: "/images/services/service4.jpg",
+  //   iconName: "pe-7s-comment",
+  //   title: "Business Consultancy",
+  //   shortText:
+  //     "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+  //   detailsLink: "/service-details/",
+  // },
+];
+
 export const servicesData = [
   {
     id: 1001,
     iconName: "pe-7s-comment bg-13c4a1",
+    image: "/images/services/service4.jpg",
+    iconNameForSlider: "pe-7s-comment",
     title: "Software as a service (SaaS)",
     shortText:
       "TechWalking delivers seamless Software as a Service development, ensuring a superior user experience with innovative solutions and expertise.",
@@ -61,6 +98,8 @@ export const servicesData = [
   {
     id: 1002,
     iconName: "pe-7s-display2 bg-6610f2",
+    image: "/images/services/service3.jpg",
+    iconNameForSlider: "pe-7s-magnet",
     title: "Web Development",
     shortText:
       "TechWalking- Expert web development services, creating responsive, user-friendly websites with cutting-edge technology for optimal online presence.",
@@ -150,6 +189,8 @@ export const servicesData = [
   {
     id: 1003,
     iconName: "pe-7s-light bg-ffb700",
+    iconNameForSlider: "pe-7s-headphones bg-6610f2",
+    image: "/images/services/service1.jpg",
     title: "Software development",
     shortText:
       "TechWalking excels in software development, delivering cutting-edge solutions with expertise, innovation, and precision for diverse business needs.",
@@ -207,6 +248,8 @@ export const servicesData = [
   {
     id: 1004,
     iconName: "pe-7s-phone bg-fc3549",
+    image: "/images/services/service3.jpg",
+    iconName: "pe-7s-display2 bg-6610f2",
     title: "Mobile App Development",
     shortText:
       "TechWalking excels in Mobile App Development, delivering innovative, user-friendly solutions tailored to clients' specific needs and preferences.",
@@ -251,6 +294,8 @@ export const servicesData = [
   {
     id: 1005,
     iconName: "pe-7s-cart bg-00d280",
+    image: "/images/services/service4.jpg",
+    iconName: "pe-7s-comment",
     title: "eCommerce Development",
     shortText:
       "TechWalking pioneers cutting-edge eCommerce development, revolutionizing online shopping experiences with innovative solutions and advanced technologies.",
@@ -306,6 +351,8 @@ export const servicesData = [
   {
     id: 1006,
     iconName: "pe-7s-users bg-ff612f",
+    image: "/images/services/service1.jpg",
+    iconNameForSlider: "pe-7s-magnet",
     title: "IT Consultancy",
     shortText:
       "TechWalking offers expert IT consultancy, guiding businesses with tailored solutions for seamless technology integration and optimal performance and grow your business with help of IT. ",
@@ -363,6 +410,9 @@ export const servicesData = [
   {
     id: 1007,
     iconName: "pe-7s-headphones bg-6610f2",
+    image: "/images/services/service4.jpg",
+    iconNameForSlider: "pe-7s-display2 bg-6610f2",
+
     title: "Digital Marketing",
     shortText:
       "TechWalking offers comprehensive digital marketing solutions, boosting online presence, engagement, and ROI with tailored strategies and cutting-edge tools",
@@ -432,6 +482,8 @@ export const servicesData = [
   {
     id: 1008,
     iconName: "pe-7s-users bg-13c4a1",
+    image: "/images/services/service3.jpg",
+    iconName: "pe-7s-display2 bg-6610f2",
     title: "Social Marketing",
     shortText:
       "TechWalking boosts brands with targeted social campaigns, driving engagement, and amplifying impact through strategic social marketing services.",
@@ -507,6 +559,9 @@ export const servicesData = [
   {
     id: 1009,
     iconName: "pe-7s-comment bg-fc3549",
+    image: "/images/services/service1.jpg",
+    iconNameForSlider: "pe-7s-magnet",
+
     title: "Admin Support",
     shortText:
       "TechWalking offers efficient Admin Support services, streamlining tasks for businesses with precision, professionalism, and cutting-edge technology solutions",

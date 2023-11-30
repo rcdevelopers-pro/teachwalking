@@ -13,11 +13,6 @@ const ContactInfo = () => {
                 </div>
                 <h3>Mail Here</h3>
                 <p>
-                  <a href="mailto:admin@techwalking.com">
-                    admin@techwalking.com
-                  </a>
-                </p>
-                <p>
                   <a href="mailto:info@techwalking.com">info@techwalking.com</a>
                 </p>
               </div>

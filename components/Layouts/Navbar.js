@@ -40,7 +40,7 @@ const NavbarThree = () => {
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container">
             <Link href="/" className="navbar-brand">
-              <img src="/images/logo1.png" alt="logo" />
+              <img src="/images/logo.png" alt="logo" />
             </Link>
 
             {/* Toggle navigation */}

@@ -1,5 +1,5 @@
 import React from "react";
-import NavbarTwo from "../components/Layouts/NavbarTwo";
+import NavbarTwo from "../components/Layouts/NavbarSecondary";
 import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/Layouts/Footer";
 
@@ -114,7 +114,8 @@ const PrivacyPolicy = () => {
           <p>
             Users have the right to access, correct, or delete their personal
             information. If you have concerns about the handling of your data,
-            please contact us at contact@techwalking.com.
+            please contact us at{" "}
+            <a href="mailto:info@techwalking.com">info@techwalking.com</a>.
           </p>
 
           <h5>Updates to the Privacy Policy</h5>
@@ -132,7 +133,8 @@ const PrivacyPolicy = () => {
           </p>
           <p>
             For any questions or concerns regarding this Privacy Policy, please
-            contact us at contact@techwalking.com.
+            contact us at{" "}
+            <a href="mailto:info@techwalking.com">info@techwalking.com</a>.
           </p>
         </div>
       </div>

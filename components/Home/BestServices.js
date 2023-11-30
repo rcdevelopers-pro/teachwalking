@@ -2,41 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation } from "swiper";
-
-const bestServicesData = [
-  {
-    image: "/images/services/service1.jpg",
-    iconName: "pe-7s-magnet",
-    title: "UX Design",
-    shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-    detailsLink: "/service-details/",
-  },
-  {
-    image: "/images/services/service2.jpg",
-    iconName: "pe-7s-vector",
-    title: "UI Design",
-    shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-    detailsLink: "/service-details/",
-  },
-  {
-    image: "/images/services/service3.jpg",
-    iconName: "pe-7s-scissors",
-    title: "Digital Product Design",
-    shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-    detailsLink: "/service-details/",
-  },
-  {
-    image: "/images/services/service4.jpg",
-    iconName: "pe-7s-comment",
-    title: "Business Consultancy",
-    shortText:
-      "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
-    detailsLink: "/service-details/",
-  },
-];
+import { servicesData } from "../../utils/servicesData";
 
 const BestServices = () => {
   return (
@@ -50,9 +16,14 @@ const BestServices = () => {
                   <h2>Offering The Best of Services</h2>
                   <div className="bar"></div>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum suspendisse ultrices gravida.
+                    TechWalking: Elevating Excellence in IT Services. At
+                    TechWalking, we redefine industry standards by offering
+                    unparalleled IT solutions. From cutting-edge software
+                    development to seamless network management, our dedicated
+                    team ensures your technological journey is marked by
+                    innovation, reliability, and unmatched quality. Choose
+                    TechWalking for a service-centric approach that propels your
+                    business forward in the digital landscape.
                   </p>
 
                   <img src="/images/women-with-table.png" alt="Women" />
@@ -84,8 +55,8 @@ const BestServices = () => {
                   modules={[Autoplay, Navigation]}
                   className="services-slides"
                 >
-                  {bestServicesData &&
-                    bestServicesData.map((value, i) => (
+                  {servicesData &&
+                    servicesData.map((value, i) => (
                       <SwiperSlide key={i}>
                         <div className="single-services">
                           <img
@@ -103,9 +74,11 @@ const BestServices = () => {
                             <p>{value.shortText}</p>
 
                             <Link
-                              href={value.detailsLink}
+                              // href={value.detailsLink}
+                              href={`${value.viewDetails}/${value.id}`}
                               className="read-more-btn"
                             >
+                              {" "}
                               Read More
                             </Link>
                           </div>
