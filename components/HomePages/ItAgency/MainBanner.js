@@ -1,20 +1,17 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
-import Link from 'next/link';
+import Link from "next/link";
 
 const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
   return (
-		<>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+    <>
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
-			<div 
-        className="hero-banner it-banner overly" 
-        style={{ 
-          backgroundImage: `url(/images/hero-banner4.jpg)` 
+      <div
+        className="hero-banner it-banner overly"
+        style={{
+          backgroundImage: `url(/images/hero-banner4.jpg)`,
         }}
       >
         <div className="d-table">
@@ -37,12 +34,12 @@ const MainBanner = () => {
                       data-aos-delay="200"
                     >
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
-                      magna aliqua.
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
                     </p>
 
-                    <Link 
-                      href="/contact" 
+                    <Link
+                      href="/contact"
                       className="btn btn-primary"
                       data-aos="fade-in"
                       data-aos-duration="1200"
@@ -80,8 +77,8 @@ const MainBanner = () => {
           </div>
         </div>
       </div>
-		</>
+    </>
   );
-}
+};
 
 export default MainBanner;

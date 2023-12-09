@@ -5,16 +5,13 @@ const WhyChooseUs = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
       <section className="about-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7 col-md-12">
-              <div 
+              <div
                 className="about-content about-content-two pl-0 mt-0"
                 data-aos="fade-in"
                 data-aos-duration="1200"
@@ -62,7 +59,7 @@ const WhyChooseUs = () => {
             </div>
 
             <div className="col-lg-5 col-md-12">
-              <div 
+              <div
                 className="about-image right-image"
                 data-aos="fade-in"
                 data-aos-duration="1200"
