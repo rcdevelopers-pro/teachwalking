@@ -29,22 +29,31 @@ const Footer = () => {
 
                 <ul className="social-links">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a
+                      href="https://www.facebook.com/techwalking/"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-facebook-f"></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="https://twitter.com/" target="_blank">
                       <i className="fa-brands fa-twitter"></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li>
-                    <a href="https://linkedin.com/" target="_blank">
+                    <a
+                      href="https://www.linkedin.com/in/tech-walking-bb50142a3/"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-linkedin-in"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a
+                      href="https://www.instagram.com/techwalking/"
+                      target="_blank"
+                    >
                       <i className="fa-brands fa-instagram"></i>
                     </a>
                   </li>
