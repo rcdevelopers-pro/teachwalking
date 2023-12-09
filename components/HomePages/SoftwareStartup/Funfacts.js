@@ -26,54 +26,45 @@ const Funfacts = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
       <div className="software-funfacts-area bg-f9f9f9 pb-100">
         <div className="container">
-
           <div className="row justify-content-center">
-            {funfactsData && funfactsData.slice(0, 3).map((value, i) => (
-              <div className="col-lg-4 col-md-4 col-sm-4 col-6" key={i}>
-                <div
-                  className="software-funfacts-item"
-                  data-aos="fade-in"
-                  data-aos-duration="1200"
-                  data-aos-delay={value.aosDelay}
-                >
-                  <div className="icon">
-                    <i className={value.iconName}></i>
+            {funfactsData &&
+              funfactsData.slice(0, 3).map((value, i) => (
+                <div className="col-lg-4 col-md-4 col-sm-4 col-6" key={i}>
+                  <div
+                    className="software-funfacts-item"
+                    data-aos="fade-in"
+                    data-aos-duration="1200"
+                    data-aos-delay={value.aosDelay}
+                  >
+                    <div className="icon">
+                      <i className={value.iconName}></i>
+                    </div>
+                    <h3>{value.number}</h3>
+                    <p>{value.title}</p>
                   </div>
-                  <h3>{value.number}</h3>
-                  <p>{value.title}</p>
                 </div>
-              </div>
-            ))}
+              ))}
           </div>
 
-          <div 
+          <div
             className="software video-box"
             data-aos="fade-in"
             data-aos-duration="1200"
             data-aos-delay="500"
           >
-            <img 
-              src="/images/software/video-thumb.jpg" 
-              alt="video" 
-            />
-            <div
-              onClick={() => setToggler(!toggler)}
-              className="video-btn"
-            >
+            <img src="/images/software/video-thumb.jpg" alt="video" />
+            <div onClick={() => setToggler(!toggler)} className="video-btn">
               <i className="fa-solid fa-play"></i>
             </div>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default Funfacts;

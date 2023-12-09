@@ -6,15 +6,12 @@ const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
-      <div 
+      <div
         className="hero-banner overly-6"
-        style={{ 
-          backgroundImage: `url(/images/hero-banner7.jpg)` 
+        style={{
+          backgroundImage: `url(/images/hero-banner7.jpg)`,
         }}
       >
         <div className="d-table">
@@ -34,12 +31,11 @@ const MainBanner = () => {
                   data-aos-duration="1200"
                   data-aos-delay="200"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing
-                  elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
-                <div 
+                <div
                   data-aos="fade-up"
                   data-aos-duration="1200"
                   data-aos-delay="300"
@@ -53,7 +49,7 @@ const MainBanner = () => {
                     className="btn btn-secondary"
                   >
                     <i className="fa-solid fa-play me-1"></i> How it works
-                  </button> 
+                  </button>
                 </div>
               </div>
             </div>
@@ -61,7 +57,7 @@ const MainBanner = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default MainBanner;

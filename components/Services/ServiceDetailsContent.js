@@ -7,10 +7,7 @@ const ServiceDetailsContent = ({ details }) => {
   const { content, rightSideContent } = details || {};
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
       <div className="services-details-area ptb-100">
         <div className="container">

@@ -6,10 +6,7 @@ const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
       <div className="main-banner startup-agency">
         <div className="d-table">
@@ -32,12 +29,12 @@ const MainBanner = () => {
                       data-aos-delay="300"
                     >
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore
-                      magna aliqua.
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.
                     </p>
 
-                    <Link 
-                      href="/contact" 
+                    <Link
+                      href="/contact"
                       className="btn btn-primary"
                       data-aos="fade-in"
                       data-aos-duration="1200"
@@ -74,7 +71,7 @@ const MainBanner = () => {
         </div>
       </div>
     </>
-  )
-}
-  
+  );
+};
+
 export default MainBanner;

@@ -9,7 +9,7 @@ const MainBanner = () => {
     <>
       <FsLightbox
         toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
+        sources={["https://youtu.be/AmztjuhvlWU"]}
       />
 
       <div className="main-banner startup-agency startup-agency2">

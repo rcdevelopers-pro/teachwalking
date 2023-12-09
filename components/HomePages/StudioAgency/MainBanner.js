@@ -11,7 +11,7 @@ const MainBanner = () => {
   const attemptPlay = () => {
     videoEl &&
       videoEl.current &&
-      videoEl.current.play().catch(error => {
+      videoEl.current.play().catch((error) => {
         console.error("Error attempting to play", error);
       });
   };
@@ -22,10 +22,7 @@ const MainBanner = () => {
 
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
       <div className="hero-banner video-studio overly-6">
         <div className="video-background">
@@ -63,8 +60,8 @@ const MainBanner = () => {
                       aliqua.
                     </p>
 
-                    <Link 
-                      href="/contact" 
+                    <Link
+                      href="/contact"
                       className="btn btn-primary"
                       data-aos="fade-in"
                       data-aos-duration="1200"
@@ -76,7 +73,7 @@ const MainBanner = () => {
                 </div>
 
                 <div className="col-lg-4">
-                  <div 
+                  <div
                     className="video-box"
                     data-aos="zoom-in"
                     data-aos-duration="1200"

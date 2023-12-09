@@ -6,15 +6,12 @@ const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
-      <div 
+      <div
         className="hero-banner overly clip-path-one bg-fixed"
-        style={{ 
-          backgroundImage: `url(/images/hero-banner15.jpg)` 
+        style={{
+          backgroundImage: `url(/images/hero-banner15.jpg)`,
         }}
       >
         <div className="d-table">
@@ -38,13 +35,13 @@ const MainBanner = () => {
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
 
-                <Link 
-                  href="/contact" 
+                <Link
+                  href="/contact"
                   className="btn btn-primary"
                   data-aos="fade-in"
                   data-aos-duration="1200"
                   data-aos-delay="300"
-                > 
+                >
                   Contact Us
                 </Link>
 
