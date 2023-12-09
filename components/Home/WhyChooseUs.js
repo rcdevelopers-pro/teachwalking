@@ -6,10 +6,7 @@ const WhyChooseUs = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
       <section className="about-area ptb-100">
         <div className="container">
@@ -56,9 +53,9 @@ const WhyChooseUs = () => {
                 <div className="about-text">
                   <h4>Our Mission</h4>
                   <p>
-                    At <b>{companyName}</b>, our mission is clear and unwavering:
-                    to revolutionize the IT landscape through innovation,
-                    excellence, and client empowerment.
+                    At <b>{companyName}</b>, our mission is clear and
+                    unwavering: to revolutionize the IT landscape through
+                    innovation, excellence, and client empowerment.
                   </p>
                 </div>
               </div>
