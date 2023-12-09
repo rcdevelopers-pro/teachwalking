@@ -9,10 +9,7 @@ const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
       <Swiper
         cssMode={true}
@@ -26,10 +23,10 @@ const MainBanner = () => {
         className="hero-slider"
       >
         <SwiperSlide>
-          <div 
-            className="hero-banner overly-6" 
-            style={{ 
-              backgroundImage: `url(/images/hero-banner5.jpg)` 
+          <div
+            className="hero-banner overly-6"
+            style={{
+              backgroundImage: `url(/images/hero-banner5.jpg)`,
             }}
           >
             <div className="d-table">
@@ -75,7 +72,8 @@ const MainBanner = () => {
                             onClick={() => setToggler(!toggler)}
                             className="btn btn-secondary"
                           >
-                            <i className="fa-solid fa-play me-1"></i> How it works
+                            <i className="fa-solid fa-play me-1"></i> How it
+                            works
                           </button>
                         </div>
                       </div>
@@ -88,10 +86,10 @@ const MainBanner = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div 
+          <div
             className="hero-banner overly-6"
-            style={{ 
-              backgroundImage: `url(/images/hero-banner6.jpg)` 
+            style={{
+              backgroundImage: `url(/images/hero-banner6.jpg)`,
             }}
           >
             <div className="d-table">
@@ -137,7 +135,8 @@ const MainBanner = () => {
                             onClick={() => setToggler(!toggler)}
                             className="btn btn-secondary"
                           >
-                            <i className="fa-solid fa-play me-1"></i> How it works
+                            <i className="fa-solid fa-play me-1"></i> How it
+                            works
                           </button>
                         </div>
                       </div>
@@ -150,10 +149,10 @@ const MainBanner = () => {
         </SwiperSlide>
 
         <SwiperSlide>
-          <div 
+          <div
             className="hero-banner overly-6"
-            style={{ 
-              backgroundImage: `url(/images/hero-banner7.jpg)` 
+            style={{
+              backgroundImage: `url(/images/hero-banner7.jpg)`,
             }}
           >
             <div className="d-table">
@@ -199,7 +198,8 @@ const MainBanner = () => {
                             onClick={() => setToggler(!toggler)}
                             className="btn btn-secondary"
                           >
-                            <i className="fa-solid fa-play me-1"></i> How it works
+                            <i className="fa-solid fa-play me-1"></i> How it
+                            works
                           </button>
                         </div>
                       </div>

@@ -22,10 +22,7 @@ const MainBanner = () => {
 
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
       <div className="hero-banner video-studio center overly-6">
         <div className="video-background">
