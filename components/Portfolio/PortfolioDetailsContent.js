@@ -6,10 +6,7 @@ const PortfolioDetailsContent = ({ details }) => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
       <div className="portfolio-details ptb-100">
         <div className="container">

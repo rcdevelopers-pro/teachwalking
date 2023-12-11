@@ -6,10 +6,7 @@ const AboutContent = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
       <div className="about-area ptb-100">
         <div className="container">
@@ -39,10 +36,10 @@ const AboutContent = () => {
                   <h2>About Us</h2>
                   {/* <h4>Transforming Possibilities into Reality</h4> */}
                   <p>
-                    At {companyName}, we are not just an IT startup; we
-                    are a catalyst for change in the digital realm. Our story is
-                    one of innovation, determination, and a relentless pursuit
-                    of excellence.
+                    At {companyName}, we are not just an IT startup; we are a
+                    catalyst for change in the digital realm. Our story is one
+                    of innovation, determination, and a relentless pursuit of
+                    excellence.
                   </p>
                 </div>
 
@@ -102,7 +99,7 @@ const AboutContent = () => {
                     </li>
                   </ul>
                 </div>
-{/* 
+                {/* 
                 <div className="about-text">
                   <h4>Our Promise</h4>
                   <p>

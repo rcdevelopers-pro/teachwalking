@@ -1,22 +1,19 @@
 import React, { useState } from "react";
 import FsLightbox from "fslightbox-react";
-import Link from 'next/link';
+import Link from "next/link";
 
 const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox
-        toggler={toggler}
-        sources={["https://www.youtube.com/embed/bk7McNUjWgw"]}
-      />
+      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
 
       <div className="cs-banner-section">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="cs-banner-content">
-                <span 
+                <span
                   className="sub-title"
                   data-aos="fade-up"
                   data-aos-duration="1200"
@@ -43,7 +40,7 @@ const MainBanner = () => {
                   hardware, software and more.
                 </p>
 
-                <ul 
+                <ul
                   className="banner-btn"
                   data-aos="fade-up"
                   data-aos-duration="1200"
@@ -51,8 +48,7 @@ const MainBanner = () => {
                 >
                   <li>
                     <Link href="/contact" className="default-btn-two">
-                      Contact Us{" "}
-                      <i className="fa-solid fa-chevron-right"></i>
+                      Contact Us <i className="fa-solid fa-chevron-right"></i>
                     </Link>
                   </li>
                   <li>
@@ -73,10 +69,7 @@ const MainBanner = () => {
                 data-aos="fade-right"
                 data-aos-duration="1200"
               >
-                <img
-                  src="/images/cyber-security/banner/main.png"
-                  alt="image"
-                />
+                <img src="/images/cyber-security/banner/main.png" alt="image" />
               </div>
             </div>
           </div>
@@ -92,6 +85,6 @@ const MainBanner = () => {
       </div>
     </>
   );
-}
+};
 
 export default MainBanner;

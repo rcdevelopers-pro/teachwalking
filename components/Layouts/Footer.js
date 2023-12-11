@@ -135,9 +135,7 @@ const Footer = () => {
                   </li> */}
                   <li>
                     <i className="fa-solid fa-headset"></i>
-                    <a href="tel:+91-77280-83724">+91-772808-3724</a>
-                    <br />
-                    <a href="tel:+91-89551-84644">+91-89551-84644</a>
+                    <a href="tel:+91-882424-5440">+91-882424-5440</a>
                   </li>
                   <li>
                     <i className="fa-solid fa-envelope"></i>

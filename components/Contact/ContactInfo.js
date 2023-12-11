@@ -24,9 +24,7 @@ const ContactInfo = () => {
                   <i className="pe-7s-map-2"></i>
                 </div>
                 <h3>Visit Here</h3>
-                <p>
-                  Banswara, <br /> Rajasthan, 327001, India
-                </p>
+                <p> Rajasthan, India</p>
               </div>
             </div>
 
@@ -37,10 +35,7 @@ const ContactInfo = () => {
                 </div>
                 <h3>Call Here</h3>
                 <p>
-                  <a href="tel:+91-77280-83724">+91-772808-3724</a>
-                </p>
-                <p>
-                  <a href="tel:+91-89551-84644">+91-89551-84644</a>
+                  <a href="tel:+91-882424-5440">+91-882424-5440</a>
                 </p>
               </div>
             </div>
