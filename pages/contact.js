@@ -9,6 +9,11 @@ import Footer from "../components/Layouts/Footer";
 const Contact = () => {
   return (
     <>
+      <NextSeo
+        title="Contact Us"
+        description="Connect with TechWalking: Where Innovation Meets Your Digital Needs!"
+        canonical="https://www.techwalking.com/contact/"
+      />
       <Navbar />
 
       <PageBanner pageTitle="Contact Us" BGImage="/images/page-banner1.jpg" />
