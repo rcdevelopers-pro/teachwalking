@@ -6,7 +6,12 @@ const WhyChooseUs = () => {
   const [toggler, setToggler] = useState(false);
   return (
     <>
-      <FsLightbox toggler={toggler} sources={["https://youtu.be/AmztjuhvlW"]} />
+      <FsLightbox
+        toggler={toggler}
+        sources={[
+          "https://www.youtube.com/embed/AmztjuhvlWU?si=OqieFDxbqsd0x32R",
+        ]}
+      />
 
       <section className="about-area ptb-100">
         <div className="container">
