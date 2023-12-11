@@ -31,8 +31,9 @@ import "../styles/cyber-security-agency-home-page.css";
 import "../styles/style.css";
 import "../styles/responsive.css";
 
-import Head from "next/head";
+import { DefaultSeo } from "next-seo";
 import GoTop from "../components/Layouts/GoTop";
+import SEO from "../utils/seo.config";
 
 function MyApp({ Component, pageProps }) {
   React.useEffect(() => {
@@ -40,13 +41,7 @@ function MyApp({ Component, pageProps }) {
   }, []);
   return (
     <>
-      <Head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>
-          Pungent - React Multipurpose Startup & Digital Agency Template
-        </title>
-      </Head>
+      <DefaultSeo {...SEO} />
 
       <Component {...pageProps} />
 

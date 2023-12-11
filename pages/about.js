@@ -12,6 +12,11 @@ import Footer from "../components/Layouts/Footer";
 const About = () => {
   return (
     <>
+      <NextSeo
+        title="About Us"
+        description="Our vision is simple yet profound: to redefine the possibilities of technology. We envision a world where IT is not just a tool but a transformative force that empowers businesses and individuals to achieve their dreams."
+        canonical="https://www.techwalking.com/about/"
+      />
       <Navbar />
 
       <PageBanner pageTitle="About Us" BGImage="/images/page-banner1.jpg" />

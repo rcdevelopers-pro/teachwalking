@@ -8,7 +8,12 @@ import Footer from "../components/Layouts/Footer";
 const Services = () => {
   return (
     <>
-      <Navbar /> 
+      <NextSeo
+        title="Our Services"
+        description="TechWalking: Empowering Digital Transformation with Innovative Tech Solutions"
+        canonical="https://www.techwalking.com/services/"
+      />
+      <Navbar />
 
       <PageBanner pageTitle="Our Services" BGImage="/images/page-banner1.jpg" />
 
