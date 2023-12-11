@@ -1,4 +1,6 @@
 import React from "react";
+import { NextSeo } from "next-seo";
+
 import Navbar from "../components/Layouts/NavbarSecondary";
 import PageBanner from "../components/Common/PageBanner";
 import ContactInfo from "../components/Contact/ContactInfo";
@@ -9,6 +11,11 @@ import Footer from "../components/Layouts/Footer";
 const Contact = () => {
   return (
     <>
+      <NextSeo
+        title="Contact Us"
+        description="Connect with TechWalking: Where Innovation Meets Your Digital Needs!"
+        canonical="https://www.techwalking.com/contact/"
+      />
       <Navbar />
 
       <PageBanner pageTitle="Contact Us" BGImage="/images/page-banner1.jpg" />
