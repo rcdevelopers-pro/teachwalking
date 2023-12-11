@@ -1,4 +1,6 @@
 import React from "react";
+import { NextSeo } from "next-seo";
+
 import Navbar from "../components/Layouts/NavbarSecondary";
 import PageBanner from "../components/Common/PageBanner";
 import ContactInfo from "../components/Contact/ContactInfo";
