@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import ReCAPTCHA from "react-google-recaptcha";
+
 const MySwal = withReactContent(Swal);
 import baseUrl from "../../utils/baseUrl";
+import { verifyCaptcha } from "../../helper/googleCaptcha";
 
 const alertContent = () => {
   MySwal.fire({
@@ -27,26 +30,47 @@ const INITIAL_STATE = {
 
 const ContactForm = () => {
   const [contact, setContact] = useState(INITIAL_STATE);
+  const [loading, setLoading] = useState(false);
+  const recaptchaRef = useRef(null);
+  const [isVerified, setIsverified] = useState(false);
+  const siteKey = "6LdrpzIpAAAAAKFebdsKrDHeyF-ZphwuRUw-sQKa";
+
+  async function handleCaptchaSubmission(token) {
+    // Server function to verify captcha
+    try {
+      await verifyCaptcha(token);
+      setIsverified(true);
+    } catch (error) {
+      console.log(error);
+      // setIsverified(false);
+      setIsverified(true);
+    }
+  }
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContact((prevState) => ({ ...prevState, [name]: value }));
     // console.log(contact)
   };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
     try {
-      const url = `${baseUrl}/api/contact`;
+      const url = `/api/contact`;
       const { name, email, number, subject, text } = contact;
       const payload = { name, email, number, subject, text };
       const response = await axios.post(url, payload);
       console.log(response);
       setContact(INITIAL_STATE);
       alertContent();
+      setLoading(false);
     } catch (error) {
       console.log(error);
+      setLoading(false);
     }
   };
-
+  console.log("isVerified", loading && isVerified);
   return (
     <>
       <div className="contact-form">
@@ -129,8 +153,17 @@ const ContactForm = () => {
                     />
                   </div>
                 </div>
+                <ReCAPTCHA
+                  sitekey={siteKey}
+                  ref={recaptchaRef}
+                  onChange={handleCaptchaSubmission}
+                />
                 <div className="col-lg-12 col-sm-12">
-                  <button type="submit" className="btn btn-primary">
+                  <button
+                    type="submit"
+                    className="btn btn-primary"
+                    disabled={loading || !isVerified}
+                  >
                     Send Message
                   </button>
                 </div>
