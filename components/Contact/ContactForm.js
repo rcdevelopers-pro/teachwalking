@@ -19,6 +19,17 @@ const alertContent = () => {
   });
 };
 
+const alertContentFailed = () => {
+  MySwal.fire({
+    title: "Sorry for the inconvenience!",
+    text: "Please call +91 882424 5440",
+    icon: "info",
+    timer: 2000,
+    timerProgressBar: true,
+    showConfirmButton: false,
+  });
+};
+
 // Form initial state
 const INITIAL_STATE = {
   name: "",
@@ -68,6 +79,7 @@ const ContactForm = () => {
     } catch (error) {
       console.log(error);
       setLoading(false);
+      alertContentFailed();
     }
   };
   console.log("isVerified", loading && isVerified);
