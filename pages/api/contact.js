@@ -31,11 +31,18 @@ export default async (req, res) => {
         `,
   };
 
-  try {
-    await mailer.sendMail(data);
-    res.status(200).send("Email send successfully");
-  } catch (error) {
-    console.log(error);
-    res.status(500).send("Error proccessing charge");
+  const requestMethod = req.method;
+  switch (requestMethod) {
+    case "POST":
+      try {
+        await mailer.sendMail(data);
+        res.status(200).send("Email send successfully");
+      } catch (error) {
+        console.log(error);
+        res.status(500).send("Error proccessing charge");
+      }
+    // handle other HTTP methods
+    default:
+      res.status(200).json({ message: "Welcome to API Routes!" });
   }
 };
