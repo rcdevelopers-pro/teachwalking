@@ -9,7 +9,7 @@ const Error = () => {
     <>
       <Navbar />
 
-      <PageBanner pageTitle="404 Error " BGImage="/images/page-banner3.jpg" />
+      <PageBanner pageTitle="404 Error" BGImage="/images/page-banner3.jpg" />
 
       <ErrorContent />
 
