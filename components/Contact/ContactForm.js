@@ -1,3 +1,4 @@
+"use client";
 import React, { useRef, useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
@@ -71,8 +72,9 @@ const ContactForm = () => {
       const url = `/api/contact`;
       const { name, email, number, subject, text } = contact;
       const payload = { name, email, number, subject, text };
-      const response = await axios.post(url, payload);
-      console.log(response);
+      console.log("step 1 - Data before submission", payload);
+      const response = await axios.post(`${baseUrl}${url}`, payload);
+      console.log("step last - API res", response);
       setContact(INITIAL_STATE);
       alertContent();
       setLoading(false);

@@ -17,6 +17,7 @@ const transporter = {
 const mailer = nodemailer.createTransport(transporter);
 
 export default async (req, res) => {
+  console.log("step 2: I entered in API", req, res);
   const { name, email, number, subject, text } = req.body;
   const data = {
     // Update here your email
@@ -31,18 +32,16 @@ export default async (req, res) => {
         `,
   };
 
-  const requestMethod = req.method;
-  switch (requestMethod) {
-    case "POST":
-      try {
-        await mailer.sendMail(data);
-        res.status(200).send("Email send successfully");
-      } catch (error) {
-        console.log(error);
-        res.status(500).send("Error proccessing charge");
-      }
-    // handle other HTTP methods
-    default:
-      res.status(200).json({ message: "Welcome to API Routes!" });
+  try {
+    const response = await mailer.sendMail(data);
+    console.log("step 3: after seding email", response);
+
+    res.status(200).send("Email send successfully");
+    // res.end("Preview mode enabled");
+    return;
+  } catch (error) {
+    console.log(error);
+    res.status(500).send("Error proccessing charge");
+    return;
   }
 };
