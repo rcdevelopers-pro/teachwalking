@@ -8,7 +8,7 @@ const nextConfig = {
   },
   experimental: {
     serverActions: true,
-   },
+  },
   optimizeFonts: false,
   output: "export",
 };
